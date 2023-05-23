@@ -1,0 +1,12 @@
+﻿@model RenderingModel
+<!--Content-->
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[Content]</p>
+}
+@if (Model.Item.Fields["Content"].HasValue && !String.IsNullOrEmpty(Model.Item.Fields["Content"].Value))
+{
+    <div class="rich-text">
+        @Html.Sitecore().Field("Content", Model.Item)
+    </div>
+}

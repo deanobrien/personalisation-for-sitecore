@@ -1,0 +1,51 @@
+﻿@using DeanOBrien.Foundation.Common.Models.Navigation
+@using Sitecore.Mvc.Presentation;
+@model DeanOBrien.Feature.Navigation.ViewModels.PrimaryNavigationViewModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[PrimaryNavigationV2]</p>
+}
+@{
+    var CurrentPageID = RenderingContext.Current.PageContext.Item.ID;
+}
+<!--PrimaryNavigationV2s-->
+<header>
+    <div class="bg-dark collapse" id="navbarHeader" style="">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">@Model.Site.SiteName</h4>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Menu</h4>
+                    <ul class="list-unstyled">
+                        @foreach (NavigationMenuSection navItem in Model.Menu.Sections)
+                        {
+                            string listElementClass = string.Empty;
+                            if (navItem.IsActive(CurrentPageID))
+                            {
+                                listElementClass += " active";
+                            }
+                            <li><a href="@navItem.Link.Url" class="text-white @listElementClass">@navItem.Link.Title</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                @if (Model.Site.Logo != null)
+                {
+                    <img src="@Model.Site.Logo.Src" style="height: 80px;" />
+                }
+                <strong>@Model.Site.SiteName</strong>
+            </a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>

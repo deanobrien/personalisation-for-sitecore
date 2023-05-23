@@ -1,0 +1,99 @@
+----item----
+version: 1
+id: {83B66F7F-B27E-4B26-91A2-B23F064FDBD4}
+database: master
+path: /sitecore/content/Personalisation Demo/Personalisation/Blue
+parent: {D92EA1B4-9753-41CE-84F1-00DDE2A14285}
+name: Blue
+master: {00000000-0000-0000-0000-000000000000}
+template: {D97F501C-659B-44F3-BEAB-F31EC4E10BE9}
+templatekey: BootStrap Landing Page
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 240
+
+<tracking>
+  <profile id="34b722c1-ebb0-4e7c-bbdb-214844adc1f8" name="Example Colour" presets="blue|100||">
+    <key name="Blue" value="1" />
+    <key name="Green" value="0" />
+    <key name="Red" value="0" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 185ab579-88ea-4886-84cd-084a80f089fd
+
+----field----
+field: {1045C844-96CF-4FFD-9DA1-9BA6A9519E06}
+name: Navigation Items
+key: navigation items
+content-length: 155
+
+{4FC6B02E-DE8E-4984-AC25-E30B82B83F2E}|{9366471F-687F-410D-8E97-8E3F0F179CDE}|{675FE853-E255-4002-8D77-79549FC1E264}|{75C33731-5E9F-47A1-8841-416FB0B3D5C0}
+----field----
+field: {4B402C52-F023-4084-9AB3-E6EF7A5FA889}
+name: Call To Action One
+key: call to action one
+content-length: 145
+
+<link text="Home" anchor="" linktype="internal" class="" title="Link to home page"  querystring="" id="{D92EA1B4-9753-41CE-84F1-00DDE2A14285}" />
+----field----
+field: {F3A2DAB6-5182-4024-B63D-3D792F293913}
+name: Lead Content
+key: lead content
+content-length: 32
+
+Everything in this area is blue!
+----field----
+field: {CDAA5D72-9B0C-4CA9-8BD6-521AD7B7BBF1}
+name: Title
+key: title
+content-length: 4
+
+Blue
+----field----
+field: {F0E8E907-846B-45C9-88C6-7FA9FE76DF69}
+name: Navigation Title
+key: navigation title
+content-length: 4
+
+Blue
+----field----
+field: {9A3D320B-B8B1-4456-A2EC-12997464BFE2}
+name: Navigation Image
+key: navigation image
+content-length: 58
+
+<image mediaid="{EC4BB2D2-B71C-412E-8688-F435198F42E1}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230517T091934Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+185ab579-88ea-4886-84cd-084a80f089fd
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T110650Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

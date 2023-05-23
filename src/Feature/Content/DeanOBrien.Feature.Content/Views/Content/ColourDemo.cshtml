@@ -1,0 +1,15 @@
+﻿@model RenderingModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p>[Colour Demo]</p>
+}
+<!-- Colour Demo -->
+@if (Model.Item != null)
+{
+    <style>
+        main {
+            background-color: #@(Model.Item.Fields["hex"]) !important;
+        }
+    </style>
+}

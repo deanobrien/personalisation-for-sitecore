@@ -1,0 +1,113 @@
+----item----
+version: 1
+id: {573D7A03-F3A5-4AAA-8A80-21A6629544F3}
+database: master
+path: /sitecore/content/Personalisation Demo/Personalisation/Red/Red Car
+parent: {31C14504-2AA8-45F1-80CF-11EF712AC1C4}
+name: Red Car
+master: {00000000-0000-0000-0000-000000000000}
+template: {2C6EFB27-64F5-47FC-80EE-A8ECE5CFD37B}
+templatekey: BootStrap Sub Page
+
+----field----
+field: {B0A67B2A-8B07-4E0B-8809-69F751709806}
+name: __Tracking
+key: __tracking
+content-length: 494
+
+<tracking>
+  <profile id="34b722c1-ebb0-4e7c-bbdb-214844adc1f8" name="Example Colour" presets="red|100||">
+    <key name="Blue" value="0" />
+    <key name="Green" value="0" />
+    <key name="Red" value="1" />
+  </profile>
+  <profile id="68bd3a6a-a149-47ff-8352-c036b24ab3a1" name="Example Topic" presets="cars|100||">
+    <key name="Bikes" value="0" />
+    <key name="Cars" value="1" />
+    <key name="Fish" value="0" />
+    <key name="Flowers" value="0" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 5b53982e-3822-4d39-b767-f530f1d6b7eb
+
+----field----
+field: {F3A2DAB6-5182-4024-B63D-3D792F293913}
+name: Lead Content
+key: lead content
+content-length: 132
+
+A red car is a vehicle that is characterized by its striking red color, which is often associated with energy, power, and boldness. 
+----field----
+field: {CDAA5D72-9B0C-4CA9-8BD6-521AD7B7BBF1}
+name: Title
+key: title
+content-length: 7
+
+Red Car
+----field----
+field: {6FC2FB94-9340-4E22-98FF-76346F1FD1E1}
+name: Description
+key: description
+content-length: 132
+
+A red car is a vehicle that is characterized by its striking red color, which is often associated with energy, power, and boldness. 
+----field----
+field: {ADD67ABB-B2F1-4770-8E90-B938A485A00B}
+name: Content
+key: content
+content-length: 767
+
+<p>
+A red car is a vehicle that is characterized by its striking red color, which is often associated with energy, power, and boldness. Red cars come in various shapes and sizes, ranging from compact cars to sports cars and luxury vehicles. The vibrant red hue not only catches the eye but also exudes a sense of confidence and dynamism on the road. Driving a red car can evoke a sense of excitement and passion, as it stands out among the sea of vehicles. The color red has long been associated with speed and performance, making red cars a popular choice among driving enthusiasts. Whether it's a sleek and sporty red coupe or a stylish red sedan, a red car makes a statement and adds a touch of flair to the driving experience, turning heads wherever it goes.</p>
+----field----
+field: {1E480D8B-62CB-48DF-B398-EC1867872B99}
+name: Main Image
+key: main image
+content-length: 58
+
+<image mediaid="{463F1B24-9001-4D94-A2D9-7BE8725DE043}" />
+----field----
+field: {F0E8E907-846B-45C9-88C6-7FA9FE76DF69}
+name: Navigation Title
+key: navigation title
+content-length: 7
+
+Red Car
+----field----
+field: {9A3D320B-B8B1-4456-A2EC-12997464BFE2}
+name: Navigation Image
+key: navigation image
+content-length: 58
+
+<image mediaid="{463F1B24-9001-4D94-A2D9-7BE8725DE043}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230517T105256Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5b53982e-3822-4d39-b767-f530f1d6b7eb
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T110619Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

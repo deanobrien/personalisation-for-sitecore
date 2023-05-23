@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {95E3F0E2-5A71-4807-9B18-16E4D5A01511}
+database: master
+path: /sitecore/templates/Feature/Folders/Navigation/BootStrap Navigation Items Folder
+parent: {1C2E3470-E6F9-441B-BEBA-1E76C6B66FC5}
+name: BootStrap Navigation Items Folder
+master: {00000000-0000-0000-0000-000000000000}
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
+
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {F7D48A55-2158-4F02-9356-756654404F73}
+name: __Standard values
+key: __standard values
+content-length: 38
+
+{728CA459-72A3-4C6D-AF3E-8F2F3657F868}
+----version----
+language: en
+version: 1
+revision: 85ce8759-c9b2-4e55-8146-3f1a404530ac
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210112T164829Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+85ce8759-c9b2-4e55-8146-3f1a404530ac
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20210112T164857Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

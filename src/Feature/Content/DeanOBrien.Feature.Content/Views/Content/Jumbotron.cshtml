@@ -1,0 +1,66 @@
+﻿@using Sitecore.Mvc.Presentation;
+@model DeanOBrien.Feature.Content.ViewModels.JumbotronViewModel
+
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[Jumbotron]</p>
+}
+@{
+    string siteName = string.Empty;
+    if (Model.Site != null)
+    {
+        siteName = Model.Site.SiteName;
+    }
+
+    string sectionClasses = string.Empty;
+    if (Model.Parameters.DarkBackground)
+    {
+        sectionClasses += " dark";
+    }
+    String style = string.Empty;
+    if (Model.MainImage != null && Model.Parameters.ShowImage)
+    {
+        style = String.Format("style=background-image:url({0})", Model.MainImage.Src);
+    }
+}
+
+<section class="jumbotron text-center @sectionClasses" @style>
+    <div class="container">
+        @if (Model.Parameters.DisplaySiteName)
+        {
+            if (!String.IsNullOrEmpty(siteName))
+            {
+                <p class="display-2">@siteName</p>
+            }
+        }
+        @if (Model.Parameters.ShowText)
+        {
+            if (!String.IsNullOrEmpty(Model.Title))
+            {
+                <h1 class="jumbotron-heading">@Model.Title</h1>
+            }
+            if (!String.IsNullOrEmpty(Model.LeadContent))
+            {
+                <p class="lead text-muted">@Model.LeadContent</p>
+            }
+        }
+        @if (Model.Parameters.ShowCallsToAction)
+        {
+            <p>
+                @if (Model.HasCallToActionOne)
+                {
+                    <a href="@Model.CallToActionOne.Url" class="btn btn-primary my-2">@Model.CallToActionOne.Text</a>
+                }
+                @if (Model.HasCallToActionTwo)
+                {
+                    <a href="@Model.CallToActionTwo.Url" class="btn btn-success my-2">@Model.CallToActionTwo.Text</a>
+                }
+                @if (Model.HasCallToActionThree)
+                {
+                    <a href="@Model.CallToActionThree.Url" class="btn btn-danger my-2">@Model.CallToActionThree.Text</a>
+                }
+            </p>
+        }
+    </div>
+</section>

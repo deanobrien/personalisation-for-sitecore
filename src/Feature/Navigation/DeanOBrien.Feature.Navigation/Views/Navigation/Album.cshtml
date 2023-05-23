@@ -1,0 +1,121 @@
+﻿@using Sitecore
+@using DeanOBrien.Foundation.Common.Models.Navigation
+@model DeanOBrien.Feature.Navigation.ViewModels.AlbumsViewModel
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[Album]</p>
+}
+@{
+    var navItems = new List<NavigationItem>();
+    int truncateDescriptionAtWord;
+    bool success = Int32.TryParse(Model.Parameters.TruncateDescriptionAtWord, out truncateDescriptionAtWord);
+    if (!success)
+    {
+        truncateDescriptionAtWord = 1000;
+    }
+    int columns;
+    success = Int32.TryParse(Model.Parameters.Columns, out columns);
+    if (!success)
+    {
+        columns = 4;
+    }
+    var colSpan = (int)Math.Ceiling((double)12 / (double)columns);
+}
+
+<!--Album-->
+@if (Model.NavigationItems != null && Model.NavigationItems.Count() > 0)
+{
+    <div class="album py-5">
+        <div class="container">
+            <div class="row">
+
+                @foreach (var navItem in Model.NavigationItems)
+                {
+                    bool hasImage = false;
+                    string url = string.Empty;
+                    string imageUrl = string.Empty;
+
+                    if (Model.Parameters.EnableLinks)
+                    {
+                        url = navItem.FullPath;
+                    }
+                    if (Model.Parameters.ShowImages)
+                    {
+                        if (navItem.NavigationImage != null)
+                        {
+                            imageUrl = navItem.NavigationImage.Src;
+                        }
+                        if (!string.IsNullOrWhiteSpace(imageUrl))
+                        {
+                            hasImage = true;
+                        }
+                    }
+
+                    if (!string.IsNullOrWhiteSpace(navItem.NavigationTitle) && ((Model.Parameters.OnlyShowWithImage && hasImage) || (!Model.Parameters.OnlyShowWithImage)))
+                    {
+                        <div class="col-md-@(colSpan)">
+
+                            @if (Model.Parameters.Landscape)
+                            {
+                                <div class="card flex-md-row mb-3 box-shadow h-md-250">
+                                    @if (Model.Parameters.ShowImages)
+                                    {
+                                        <img class="card-img-right flex-auto d-none d-md-block" alt="@navItem.NavigationTitle" style="width: 200px; height: 200px; padding: 50px 10px" src="@imageUrl" data-holder-rendered="true">
+                                    }
+                                    <div class="card-body d-flex flex-column align-items-start">
+                                        <h3 class="mb-0">
+                                            @if (Model.Parameters.EnableLinks)
+                                            {
+                                                <a class="text-dark" href="@url">@navItem.NavigationTitle</a>
+                                            }
+                                            else
+                                            {
+                                                @navItem.NavigationTitle
+                                            }
+                                        </h3>
+                                        <p class="card-text mb-auto">@Html.Raw(navItem.NavigationDescription)</p>
+                                        @if (Model.Parameters.EnableLinks)
+                                        {
+                                            <a href="@url">View</a>
+                                        }
+                                    </div>
+
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="card mb-4 box-shadow">
+                                    @if (Model.Parameters.ShowImages)
+                                    {
+                                        <img class="card-img-top" alt="@navItem.NavigationTitle" src="@imageUrl" style="height: 150px; width: 100%; display: block;">
+                                    }
+                                    <div class="card-body">
+                                        <h3 class="mb-0">
+                                            @if (Model.Parameters.EnableLinks)
+                                            {
+                                                <a class="text-dark" href="@url">@navItem.NavigationTitle</a>
+                                            }
+                                            else
+                                            {
+                                                @navItem.NavigationTitle
+                                            }
+                                        </h3>
+                                        <p class="card-text">@Html.Raw(navItem.NavigationDescription)</p>
+                                        @if (Model.Parameters.EnableLinks)
+                                        {
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="btn-group">
+                                                    <a role="button" class="btn btn-sm btn-outline-secondary" href="@url">View</a>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+}

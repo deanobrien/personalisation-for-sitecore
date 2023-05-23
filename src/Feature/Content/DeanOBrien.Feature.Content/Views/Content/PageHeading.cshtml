@@ -1,0 +1,10 @@
+﻿@model RenderingModel
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[Page Heading]</p>
+}
+<!--PageHeading-->
+@if (Model.Item.Fields["Title"].HasValue && !String.IsNullOrEmpty(Model.Item.Fields["Title"].Value))
+{
+    <h1>@Html.Sitecore().Field("Title", Model.Item)</h1>
+}

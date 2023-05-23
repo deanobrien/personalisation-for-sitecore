@@ -1,0 +1,10 @@
+﻿@model DeanOBrien.Feature.Content.ViewModels.ImageViewModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[Image]</p>
+}
+@if (Model.Image != null && Model.Image.MainImage != null)
+{
+    <img src="@Model.Image.MainImage.Src">
+}

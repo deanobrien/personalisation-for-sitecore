@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {A4385A67-90BF-4E98-9226-CCD6626BBF25}
+database: master
+path: /sitecore/content/Personalisation Demo/Shared Data/Albums/Fish
+parent: {633721EA-E38A-4F93-858D-9477CABF3205}
+name: Fish
+master: {00000000-0000-0000-0000-000000000000}
+template: {BF80EE05-B74B-4997-B238-6733709ED5F5}
+templatekey: BootStrap Album
+
+----version----
+language: en
+version: 1
+revision: 3bb281c0-89b4-4b8e-a1b7-a0a6d3ca5e6f
+
+----field----
+field: {1045C844-96CF-4FFD-9DA1-9BA6A9519E06}
+name: Navigation Items
+key: navigation items
+content-length: 116
+
+{675FE853-E255-4002-8D77-79549FC1E264}|{5A3C7BF3-C171-4253-90F2-C4DB63082BCE}|{A52990B1-8564-46D5-A198-D00D30A1B7F4}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230523T124411Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+3bb281c0-89b4-4b8e-a1b7-a0a6d3ca5e6f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T124427Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

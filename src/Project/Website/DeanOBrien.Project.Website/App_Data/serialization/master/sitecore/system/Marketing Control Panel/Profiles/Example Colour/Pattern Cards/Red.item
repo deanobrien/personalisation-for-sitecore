@@ -1,0 +1,64 @@
+----item----
+version: 1
+id: {D0E78EF3-483B-4293-B743-ACC730AA655E}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Example Colour/Pattern Cards/Red
+parent: {C84914E9-5403-4819-9207-9EC7ADDF86B5}
+name: Red
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A6A7E36-2481-438F-A9BA-0453ECC638FA}
+templatekey: Pattern Card
+
+----field----
+field: {6DA71AD3-5849-4482-9317-D21390E5A348}
+name: Pattern
+key: pattern
+content-length: 219
+
+<tracking>
+  <profile id="34b722c1-ebb0-4e7c-bbdb-214844adc1f8" name="Example Colour">
+    <key name="Blue" value="0" />
+    <key name="Green" value="0" />
+    <key name="Red" value="3" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 7c8caaf6-bfaa-4d5b-baeb-ab90a067e766
+
+----field----
+field: {FE732790-2DDB-4657-A882-C2FCE1FBF0C9}
+name: Name
+key: name
+content-length: 3
+
+Red
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200621T193316Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7c8caaf6-bfaa-4d5b-baeb-ab90a067e766
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200621T193340Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

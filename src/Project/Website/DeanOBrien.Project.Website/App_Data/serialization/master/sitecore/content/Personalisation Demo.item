@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {410DF6BF-5D2F-4D70-BBC2-C9D8F7B8D86E}
+database: master
+path: /sitecore/content/Personalisation Demo
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Personalisation Demo
+master: {00000000-0000-0000-0000-000000000000}
+template: {931A7478-6DB1-449E-B15D-2AE1058F73A3}
+templatekey: BootStrap Site
+
+----version----
+language: en
+version: 1
+revision: a1946a9c-60b5-4e2b-a4f3-6b1c40dc95cf
+
+----field----
+field: {128F6ECC-8E52-4E6F-90B9-A37255B0F0E8}
+name: Site Name
+key: site name
+content-length: 20
+
+Personalisation Demo
+----field----
+field: {41985DC7-E2E9-4267-83E3-2F27833F5D8A}
+name: Logo
+key: logo
+content-length: 58
+
+<image mediaid="{1C370B9F-7A40-4854-B0B2-26FBD28599AD}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230517T090912Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a1946a9c-60b5-4e2b-a4f3-6b1c40dc95cf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230517T103301Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

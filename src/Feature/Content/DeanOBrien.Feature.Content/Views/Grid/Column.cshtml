@@ -1,0 +1,21 @@
+﻿@model RenderingModel
+
+@{
+    string style = string.Empty;
+    if (!String.IsNullOrWhiteSpace(Model.Rendering.Parameters["Background Colour"]))
+    {
+        style = string.Format(@"style=background-color:#{0}", @Model.Rendering.Parameters["Background Colour"]);
+    }
+
+    var size = "col-md-" + (String.IsNullOrWhiteSpace(Model.Rendering.Parameters["Column Size"]) ? "" : Model.Rendering.Parameters["Column Size"]);
+}
+<!--Column-->
+<div class="@size" @style>
+    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <p class="section-type">[Column]</p>
+    }
+    @Html.Sitecore().DynamicPlaceholder("BootStrap-Column")
+</div>
+
+

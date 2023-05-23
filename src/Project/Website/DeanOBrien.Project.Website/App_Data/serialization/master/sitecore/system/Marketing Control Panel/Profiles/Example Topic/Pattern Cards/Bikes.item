@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {E179A451-D802-48E8-9DF0-26B01DFC1CAE}
+database: master
+path: /sitecore/system/Marketing Control Panel/Profiles/Example Topic/Pattern Cards/Bikes
+parent: {BF2DCFCF-F46E-432E-B396-D8C375907462}
+name: Bikes
+master: {00000000-0000-0000-0000-000000000000}
+template: {4A6A7E36-2481-438F-A9BA-0453ECC638FA}
+templatekey: Pattern Card
+
+----field----
+field: {6DA71AD3-5849-4482-9317-D21390E5A348}
+name: Pattern
+key: pattern
+content-length: 257
+
+<tracking>
+  <profile id="68bd3a6a-a149-47ff-8352-c036b24ab3a1" name="Example Topic">
+    <key name="Bikes" value="3" />
+    <key name="Cars" value="0" />
+    <key name="Fish" value="0" />
+    <key name="Flowers" value="0" />
+  </profile>
+</tracking>
+----version----
+language: en
+version: 1
+revision: 9e132bc9-7eae-4143-bb99-699931deca6b
+
+----field----
+field: {FE732790-2DDB-4657-A882-C2FCE1FBF0C9}
+name: Name
+key: name
+content-length: 5
+
+Bikes
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20200621T194720Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9e132bc9-7eae-4143-bb99-699931deca6b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20200621T195004Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

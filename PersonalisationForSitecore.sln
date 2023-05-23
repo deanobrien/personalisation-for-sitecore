@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanOBrien.Feature.Navigation", "src\Feature\Navigation\DeanOBrien.Feature.Navigation\DeanOBrien.Feature.Navigation.csproj", "{8DED9BC4-558A-411E-8E87-72E4E891E0D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanOBrien.Feature.Content", "src\Feature\Content\DeanOBrien.Feature.Content\DeanOBrien.Feature.Content.csproj", "{B979B98B-4A58-4E3F-B493-1111A575CD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanOBrien.Foundation.Common", "src\Foundation\Common\DeanOBrien.Foundation.Common\DeanOBrien.Foundation.Common.csproj", "{4D02F797-43C0-4755-8BA1-5D750C172F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanOBrien.Project.Website", "src\Project\Website\DeanOBrien.Project.Website\DeanOBrien.Project.Website.csproj", "{86344235-20CA-46EE-BBF3-D9C239DA8A28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DED9BC4-558A-411E-8E87-72E4E891E0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DED9BC4-558A-411E-8E87-72E4E891E0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DED9BC4-558A-411E-8E87-72E4E891E0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DED9BC4-558A-411E-8E87-72E4E891E0D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B979B98B-4A58-4E3F-B493-1111A575CD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B979B98B-4A58-4E3F-B493-1111A575CD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B979B98B-4A58-4E3F-B493-1111A575CD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B979B98B-4A58-4E3F-B493-1111A575CD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D02F797-43C0-4755-8BA1-5D750C172F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D02F797-43C0-4755-8BA1-5D750C172F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D02F797-43C0-4755-8BA1-5D750C172F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D02F797-43C0-4755-8BA1-5D750C172F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86344235-20CA-46EE-BBF3-D9C239DA8A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86344235-20CA-46EE-BBF3-D9C239DA8A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86344235-20CA-46EE-BBF3-D9C239DA8A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86344235-20CA-46EE-BBF3-D9C239DA8A28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DEC7F66-8FE9-4A50-A6E5-28016F4E2C2C}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal

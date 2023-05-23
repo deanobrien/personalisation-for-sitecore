@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {C32BFD3B-4731-448B-A520-9DA617154414}
+database: master
+path: /sitecore/templates/Project/Folders/Site/BootStrap Shared Data/__Standard Values
+parent: {B43E62D6-E397-4B1C-94B2-32C1C5CCE0E8}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {B43E62D6-E397-4B1C-94B2-32C1C5CCE0E8}
+templatekey: BootStrap Shared Data
+
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 155
+
+{95E3F0E2-5A71-4807-9B18-16E4D5A01511}|{1AFF804A-3D07-4C1E-B4AF-529825A8A09A}|{9E82E007-44CB-4E5F-8B47-D9CD7B242A1C}|{BA5445DB-B2DE-4B4D-AD9D-94A418B145C2}
+----version----
+language: en
+version: 1
+revision: 75aa36c9-0ee5-4fda-a149-aa815272d675
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210113T174529Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+75aa36c9-0ee5-4fda-a149-aa815272d675
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T124350Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

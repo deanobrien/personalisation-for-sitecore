@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {FD30BD4D-BA22-4710-9BA9-C2DC553714E9}
+database: master
+path: /sitecore/layout/Renderings/Feature/Content/BootStrap Jumbotron
+parent: {5A289D3E-5396-4DB0-93DA-AC886BFB43FC}
+name: BootStrap Jumbotron
+master: {00000000-0000-0000-0000-000000000000}
+template: {2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}
+templatekey: Controller rendering
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 7
+
+Content
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 9
+
+Jumbotron
+----field----
+field: {13F89250-AD6B-4548-882E-118A12C18094}
+name: Parameters Template
+key: parameters template
+content-length: 38
+
+{8E3B6368-F247-4E19-83C6-9340CB835E84}
+----version----
+language: en
+version: 1
+revision: b27d6c47-f427-4d67-a7ed-2bddb0a5fdd3
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20210113T121831Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b27d6c47-f427-4d67-a7ed-2bddb0a5fdd3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230522T191453Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

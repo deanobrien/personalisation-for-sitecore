@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {9D9FE799-D751-4A26-B77B-2AFD7AA8AD5B}
+database: master
+path: /sitecore/content/Personalisation Demo/Shared Data/Jumbotrons/Flowers
+parent: {3B70C057-D67E-40DB-A723-30DB6368CBEB}
+name: Flowers
+master: {00000000-0000-0000-0000-000000000000}
+template: {6979748A-DC8A-4B1E-9B5C-0714E9701CC1}
+templatekey: BootStrap Jumbotron
+
+----version----
+language: en
+version: 1
+revision: fb8edd43-1341-4820-9a76-135cf0c12ff3
+
+----field----
+field: {F3A2DAB6-5182-4024-B63D-3D792F293913}
+name: Lead Content
+key: lead content
+content-length: 26
+
+We think you like flowers!
+----field----
+field: {1E480D8B-62CB-48DF-B398-EC1867872B99}
+name: Main Image
+key: main image
+content-length: 58
+
+<image mediaid="{D9A0DB1D-0AA6-4EC4-9DD7-D10954C985FF}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230523T120519Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb8edd43-1341-4820-9a76-135cf0c12ff3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T120529Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

@@ -1,0 +1,10 @@
+﻿@model RenderingModel
+
+<div class="row">
+    @if (Sitecore.Context.PageMode.IsExperienceEditor)
+    {
+        <p class="section-type">[Row]</p>
+    }
+
+    @Html.Sitecore().DynamicPlaceholder("BootStrap-Row")
+</div>

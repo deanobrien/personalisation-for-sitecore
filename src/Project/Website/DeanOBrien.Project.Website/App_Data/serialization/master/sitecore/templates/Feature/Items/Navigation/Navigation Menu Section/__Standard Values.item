@@ -1,0 +1,51 @@
+----item----
+version: 1
+id: {7CE0C068-41BF-400F-8882-2F0C1691BE6D}
+database: master
+path: /sitecore/templates/Feature/Items/Navigation/Navigation Menu Section/__Standard Values
+parent: {6458DFCB-8418-4FFC-8A42-814A154121A3}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {6458DFCB-8418-4FFC-8A42-814A154121A3}
+templatekey: Navigation Menu Section
+
+----field----
+field: {FD4E2050-186C-4375-8B99-E8A85DD7436E}
+name: __Enable item fallback
+key: __enable item fallback
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: d035a43a-788d-443f-a12d-825d2bf36b86
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170220T174454Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d035a43a-788d-443f-a12d-825d2bf36b86
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20181025T112704Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

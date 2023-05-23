@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {080C7220-8813-4A74-A1F7-8A125413FB73}
+database: master
+path: /sitecore/content/Personalisation Demo/Shared Data/Jumbotrons/Fish
+parent: {3B70C057-D67E-40DB-A723-30DB6368CBEB}
+name: Fish
+master: {00000000-0000-0000-0000-000000000000}
+template: {6979748A-DC8A-4B1E-9B5C-0714E9701CC1}
+templatekey: BootStrap Jumbotron
+
+----version----
+language: en
+version: 1
+revision: 8f0346cd-f66c-40db-840b-8009db1f5a2b
+
+----field----
+field: {F3A2DAB6-5182-4024-B63D-3D792F293913}
+name: Lead Content
+key: lead content
+content-length: 23
+
+We think you like fish!
+----field----
+field: {1E480D8B-62CB-48DF-B398-EC1867872B99}
+name: Main Image
+key: main image
+content-length: 58
+
+<image mediaid="{CE1E68B9-914D-4E12-9E75-0AB98B2F558A}" />
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230523T120537Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8f0346cd-f66c-40db-840b-8009db1f5a2b
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T120551Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

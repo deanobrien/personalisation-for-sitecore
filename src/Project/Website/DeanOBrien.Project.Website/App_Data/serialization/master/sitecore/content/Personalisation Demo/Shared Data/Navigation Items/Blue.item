@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {F63D6DB2-F4ED-40CA-8D4C-D61F3A4515CE}
+database: master
+path: /sitecore/content/Personalisation Demo/Shared Data/Navigation Items/Blue
+parent: {30B09CED-5735-4A0E-A7A0-5091C31AE270}
+name: Blue
+master: {00000000-0000-0000-0000-000000000000}
+template: {6458DFCB-8418-4FFC-8A42-814A154121A3}
+templatekey: Navigation Menu Section
+
+----version----
+language: en
+version: 1
+revision: 2c0a62d5-a06a-4c3d-84ac-c0ad7a871b3f
+
+----field----
+field: {81005B00-387C-4FCC-A9AC-1BD28DCEC458}
+name: Link
+key: link
+content-length: 38
+
+{83B66F7F-B27E-4B26-91A2-B23F064FDBD4}
+----field----
+field: {485154C8-C70A-473C-9AEF-C65990719BD3}
+name: Sub Items
+key: sub items
+content-length: 155
+
+{4FC6B02E-DE8E-4984-AC25-E30B82B83F2E}|{9366471F-687F-410D-8E97-8E3F0F179CDE}|{675FE853-E255-4002-8D77-79549FC1E264}|{75C33731-5E9F-47A1-8841-416FB0B3D5C0}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230517T094332Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c0a62d5-a06a-4c3d-84ac-c0ad7a871b3f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230522T174331Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

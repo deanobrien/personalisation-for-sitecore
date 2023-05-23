@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {DEAC599F-43D1-495B-8DD8-2191566971FF}
+database: master
+path: /sitecore/templates/Feature/Parameters/Content/Page Heading Parameters/__Standard Values
+parent: {2C5A112E-0B95-4769-BA71-918404BFBB2F}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {2C5A112E-0B95-4769-BA71-918404BFBB2F}
+templatekey: Page Heading Parameters
+
+----field----
+field: {3094D236-5985-4C4F-AE6A-E30740885532}
+name: Caching
+key: caching
+content-length: 15
+
+0|0|0|0|0|0|0|0
+----version----
+language: en
+version: 1
+revision: 27a2c554-fdd2-463e-a661-ee5642d1196f
+
+----field----
+field: {4E33D06A-5756-4224-B823-CA42DFF1B5BA}
+name: Show Description
+key: show description
+content-length: 1
+
+1
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170406T094745Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+27a2c554-fdd2-463e-a661-ee5642d1196f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170410T145540Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\unicorn

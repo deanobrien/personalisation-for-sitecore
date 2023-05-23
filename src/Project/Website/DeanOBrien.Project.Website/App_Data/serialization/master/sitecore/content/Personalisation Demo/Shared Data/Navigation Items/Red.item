@@ -1,0 +1,58 @@
+----item----
+version: 1
+id: {A23A8DC8-E98A-4301-A715-F66540CD65A3}
+database: master
+path: /sitecore/content/Personalisation Demo/Shared Data/Navigation Items/Red
+parent: {30B09CED-5735-4A0E-A7A0-5091C31AE270}
+name: Red
+master: {00000000-0000-0000-0000-000000000000}
+template: {6458DFCB-8418-4FFC-8A42-814A154121A3}
+templatekey: Navigation Menu Section
+
+----version----
+language: en
+version: 1
+revision: 7b929c6c-33b2-4858-bca4-96ac8b5139b1
+
+----field----
+field: {81005B00-387C-4FCC-A9AC-1BD28DCEC458}
+name: Link
+key: link
+content-length: 38
+
+{31C14504-2AA8-45F1-80CF-11EF712AC1C4}
+----field----
+field: {485154C8-C70A-473C-9AEF-C65990719BD3}
+name: Sub Items
+key: sub items
+content-length: 155
+
+{B0AF7A82-DA19-4D04-85CE-C5719E5C2BE6}|{573D7A03-F3A5-4AAA-8A80-21A6629544F3}|{A52990B1-8564-46D5-A198-D00D30A1B7F4}|{87D44FFD-AD99-4AFF-B397-A996E6F80839}
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230517T094346Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+7b929c6c-33b2-4858-bca4-96ac8b5139b1
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230522T174345Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

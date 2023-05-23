@@ -1,0 +1,121 @@
+----item----
+version: 1
+id: {D92EA1B4-9753-41CE-84F1-00DDE2A14285}
+database: master
+path: /sitecore/content/Personalisation Demo/Personalisation
+parent: {410DF6BF-5D2F-4D70-BBC2-C9D8F7B8D86E}
+name: Personalisation
+master: {00000000-0000-0000-0000-000000000000}
+template: {D97F501C-659B-44F3-BEAB-F31EC4E10BE9}
+templatekey: BootStrap Landing Page
+
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 186
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{B43C57FA-C8DF-432D-AFFF-4DBB3E415A1B}" s:ds="{30B09CED-5735-4A0E-A7A0-5091C31AE270}" /></d></r>
+----version----
+language: en
+version: 1
+revision: 58a3e8d1-a229-4e4f-8ace-ff92049849f8
+
+----field----
+field: {1045C844-96CF-4FFD-9DA1-9BA6A9519E06}
+name: Navigation Items
+key: navigation items
+content-length: 467
+
+{4FC6B02E-DE8E-4984-AC25-E30B82B83F2E}|{9366471F-687F-410D-8E97-8E3F0F179CDE}|{675FE853-E255-4002-8D77-79549FC1E264}|{75C33731-5E9F-47A1-8841-416FB0B3D5C0}|{EDBAAADA-F583-4C17-8377-5C04F411D76F}|{BCB53111-F99A-49DC-A1F3-D9E3FBCBA150}|{5A3C7BF3-C171-4253-90F2-C4DB63082BCE}|{CE3430B7-F6F1-44F6-A648-1818038DAEB7}|{B0AF7A82-DA19-4D04-85CE-C5719E5C2BE6}|{573D7A03-F3A5-4AAA-8A80-21A6629544F3}|{A52990B1-8564-46D5-A198-D00D30A1B7F4}|{87D44FFD-AD99-4AFF-B397-A996E6F80839}
+----field----
+field: {4B402C52-F023-4084-9AB3-E6EF7A5FA889}
+name: Call To Action One
+key: call to action one
+content-length: 148
+
+<link text="Blue" anchor="" linktype="internal" class="" title="Link to blue section"  querystring="" id="{83B66F7F-B27E-4B26-91A2-B23F064FDBD4}" />
+----field----
+field: {E18104E1-E4AE-46A1-9BAA-64F856DE8EC9}
+name: Call To Action Two
+key: call to action two
+content-length: 150
+
+<link text="Green" anchor="" linktype="internal" class="" title="Link to green section"  querystring="" id="{F63394E3-6CE3-47B7-9200-5606660CA54F}" />
+----field----
+field: {3D02AD8B-791D-47C1-BD5A-17663208F66A}
+name: Call To Action Three
+key: call to action three
+content-length: 146
+
+<link text="Red" anchor="" linktype="internal" class="" title="Link to red section"  querystring="" id="{31C14504-2AA8-45F1-80CF-11EF712AC1C4}" />
+----field----
+field: {F3A2DAB6-5182-4024-B63D-3D792F293913}
+name: Lead Content
+key: lead content
+content-length: 65
+
+Navigate the site so we can work out the types of things you like
+----field----
+field: {CDAA5D72-9B0C-4CA9-8BD6-521AD7B7BBF1}
+name: Title
+key: title
+content-length: 15
+
+Personalisation
+----field----
+field: {6FC2FB94-9340-4E22-98FF-76346F1FD1E1}
+name: Description
+key: description
+content-length: 11
+
+Description
+----field----
+field: {F0E8E907-846B-45C9-88C6-7FA9FE76DF69}
+name: Navigation Title
+key: navigation title
+content-length: 15
+
+Personalisation
+----field----
+field: {F28E606E-D6B5-4954-BD2F-CC5D95C55E91}
+name: Navigation Description
+key: navigation description
+content-length: 22
+
+Navigation Description
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 2444
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F66CD81A-E1AD-47E5-9481-BAF17AE5439E}" s:par="__Base template&amp;Show Text=1&amp;Show Calls To Action=1&amp;Dark Background&amp;Display Site Name&amp;Show Image=1" /><r uid="{AD354175-C34A-4F2B-8129-4FD0F156158E}" s:pt="{4EB05800-4DE4-4CB5-8C06-3E8AE2EC917A}" s:uid="{AD354175-C34A-4F2B-8129-4FD0F156158E}"><rls><ruleset s:pet="true"><rule uid="{7B808D5C-EDB7-4B9C-9480-4E56EDA52A6C}" s:name="Fish" s:test="true"><conditions><condition uid="C085672440F447E88A17C4E80EC6FE9F" s:id="{0290AA90-B948-4C8C-B576-F3C17F9DE389}" s:CampaignsList="{C61C9DEF-AE5D-4DCF-988F-DA7776413B78}" /></conditions><actions><action uid="2B3BFE82198447C593894396C5A7262F" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{A4385A67-90BF-4E98-9226-CCD6626BBF25}" /></actions></rule><rule uid="{8C3721E4-022C-48D1-BF2A-E3523AE4D98A}" s:name="Bikes Campaign" s:test="true"><conditions><condition uid="96C09E137AFA4CB08C78F9338B994565" s:id="{0290AA90-B948-4C8C-B576-F3C17F9DE389}" s:CampaignsList="{842C98D4-4C6C-4D67-94F1-CFC51C7B3D77}" /></conditions><actions><action uid="ABEDF580F49E44B98A86DE4A70EBAEEA" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{E99228EC-9371-4295-9DA1-8D0C93D8AFBA}" /></actions></rule><rule uid="{69D46F8C-2BA6-4BBD-8E3E-CBD889EAE841}" s:name="Cars Campaign" s:test="true"><conditions><condition uid="A38CF83B78AD4ED499E7CF097F9CE764" s:id="{0290AA90-B948-4C8C-B576-F3C17F9DE389}" s:CampaignsList="{76630CE4-966B-455F-84A6-6E646479A2A9}" /></conditions><actions><action uid="C35C83821A73427783FC4339252CA231" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{288085C6-8267-44F3-BF64-6ECFED291808}" /></actions></rule><rule uid="{110AEB14-6CDA-40F4-BC2C-49D0491D38E4}" s:name="Flowers Campaign" s:test="true"><conditions><condition uid="51F0C1D91840498FA41EE60899232062" s:id="{0290AA90-B948-4C8C-B576-F3C17F9DE389}" s:CampaignsList="{38496426-18F3-495B-898B-1D9853E3E295}" /></conditions><actions><action uid="19BB999945074122948345501E8CE7A1" s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}" s:DataSource="{B813C2E4-C441-4E3F-8050-7D0860B5A166}" /></actions></rule><rule uid="{00000000-0000-0000-0000-000000000000}" s:name="Default" s:test="true"><conditions><condition uid="119A56D8A8F34504BB3AE0A98D1E0D2D" s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" /></conditions><actions /></rule></ruleset></rls></r></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20230517T091743Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+58a3e8d1-a229-4e4f-8ace-ff92049849f8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20230523T124848Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin

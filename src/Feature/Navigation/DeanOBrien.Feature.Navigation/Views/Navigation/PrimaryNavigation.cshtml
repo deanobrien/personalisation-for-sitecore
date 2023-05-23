@@ -1,0 +1,60 @@
+﻿@using DeanOBrien.Foundation.Common.Models.Navigation
+@using Sitecore.Mvc.Presentation;
+@model DeanOBrien.Feature.Navigation.ViewModels.PrimaryNavigationViewModel
+
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[PrimaryNavigation]</p>
+}
+@{
+    var CurrentPageID = RenderingContext.Current.PageContext.Item.ID;
+    string siteName = string.Empty;
+    if (Model.Site != null)
+    {
+        siteName = Model.Site.SiteName;
+    }
+    int navItemCount = 0;
+}
+<!--PrimaryNavigation-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">@siteName</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+
+            @foreach (NavigationMenuSection navItem in Model.Menu.Sections)
+            {
+                navItemCount++;
+                string listElementClass = string.Empty;
+                string linkClass = string.Empty;
+                string linkAttr = string.Empty;
+                if (navItem.IsActive(CurrentPageID))
+                {
+                    listElementClass += " active";
+                }
+                if (navItem.HasSubItems)
+                {
+                    listElementClass += " dropdown";
+                    linkClass += " dropdown-toggle";
+                    linkAttr += @"data-toggle=""dropdown"" aria-haspopup=""true""  aria-expanded=""false""";
+                }
+                <li class="nav-item @listElementClass">
+                    <a class="nav-link @linkClass" @Html.Raw(linkAttr) href="@navItem.Link.Url" id="navItem@(navItemCount)">@navItem.Link.Title</a>
+                    @if (navItem.HasSubItems)
+                    {
+                        <ul class="dropdown-menu" aria-labelledby="navItem@(navItemCount)">
+                            @foreach (var subNavItem in navItem.SubItems)
+                            {
+                                <li><a class="dropdown-item" href="@subNavItem.Url">@subNavItem.NavigationTitle</a></li>
+                            }
+                        </ul>
+                    }
+                </li>
+            }
+
+        </ul>
+    </div>
+</nav>

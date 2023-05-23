@@ -1,0 +1,10 @@
+﻿@model RenderingModel
+@if (Sitecore.Context.PageMode.IsExperienceEditor)
+{
+    <p class="section-type">[Lead Content]</p>
+}
+<!--LeadContent-->
+@if (Model.Item.Fields["Lead Content"].HasValue && !String.IsNullOrEmpty(Model.Item.Fields["Lead Content"].Value))
+{
+    <p class="lead text-muted">@Html.Sitecore().Field("Lead Content", Model.Item)</p>
+}
