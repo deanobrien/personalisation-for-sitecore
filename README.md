@@ -1,5 +1,6 @@
 
 # Personalisation for Sitecore
+![Personalisation for Sitecore](https://deanobrien.uk/wp-content/uploads/2023/05/personalisation-small.png)
 
 This is a simple set of MVC controllers and actions, that enable you to build a Sitecore website using Twitter BootStrap components.
 
@@ -13,3 +14,5 @@ To use:
 4) Place views and config files in correct locations
 5) Either install the package Personalisation.1.zip from root or copy Serialisation folder to App_Data and serialise via content editor.
 6) Publish site and navigate
+
+> Detailed guide can be found here: [DeanOBrien: Personalisation Demo Site]]([https://deanobrien.uk/personalisation-demo-site/](https://deanobrien.uk/personalisation-demo-site/)).
