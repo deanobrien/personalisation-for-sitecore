@@ -16,3 +16,5 @@ To use:
 6) Publish site and navigate
 
 > Detailed guide can be found here: [DeanOBrien: Personalisation Demo Site]]([https://deanobrien.uk/personalisation-demo-site/](https://deanobrien.uk/personalisation-demo-site/)).
+
+> If you try this module and find it helpful or have any issues - it would be nice to know via LinkedIn!
